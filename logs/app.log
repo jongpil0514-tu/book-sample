@@ -1,0 +1,133 @@
+2025-04-08T15:20:22.276+09:00  INFO 44576 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Starting BookSampleApplication using Java 21.0.5 with PID 44576 (C:\spring-tool-4\workspace\book-sample\bin\main started by haena in C:\spring-tool-4\workspace\book-sample)
+2025-04-08T15:20:22.277+09:00 DEBUG 44576 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08T15:20:22.278+09:00  INFO 44576 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-04-08T15:20:22.317+09:00  INFO 44576 --- [book-sample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08T15:20:22.318+09:00  INFO 44576 --- [book-sample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08T15:20:22.718+09:00 DEBUG 44576 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2025-04-08T15:20:22.718+09:00 DEBUG 44576 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.framework'
+2025-04-08T15:20:22.820+09:00  WARN 44576 --- [book-sample] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.framework]' package. Please check your configuration.
+2025-04-08T15:20:23.102+09:00  INFO 44576 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-08T15:20:23.117+09:00  INFO 44576 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08T15:20:23.117+09:00  INFO 44576 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08T15:20:23.161+09:00  INFO 44576 --- [book-sample] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08T15:20:23.162+09:00  INFO 44576 --- [book-sample] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 843 ms
+2025-04-08T15:20:23.520+09:00 DEBUG 44576 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-04-08T15:20:23.578+09:00 DEBUG 44576 --- [book-sample] [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Property 'mapperLocations' was not specified.
+2025-04-08T15:20:23.668+09:00  WARN 44576 --- [book-sample] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-04-08T15:20:23.689+09:00  WARN 44576 --- [book-sample] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-08T15:20:23.703+09:00  INFO 44576 --- [book-sample] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-08T15:20:23.719+09:00 ERROR 44576 --- [book-sample] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-04-08T15:20:56.855+09:00  INFO 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Starting BookSampleApplication using Java 21.0.5 with PID 42808 (C:\spring-tool-4\workspace\book-sample\bin\main started by haena in C:\spring-tool-4\workspace\book-sample)
+2025-04-08T15:20:56.857+09:00 DEBUG 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08T15:20:56.858+09:00  INFO 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-04-08T15:20:56.893+09:00  INFO 42808 --- [book-sample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08T15:20:56.894+09:00  INFO 42808 --- [book-sample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08T15:20:57.318+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2025-04-08T15:20:57.319+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.framework'
+2025-04-08T15:20:57.425+09:00  WARN 42808 --- [book-sample] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.framework]' package. Please check your configuration.
+2025-04-08T15:20:57.684+09:00  INFO 42808 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-08T15:20:57.698+09:00  INFO 42808 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08T15:20:57.699+09:00  INFO 42808 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08T15:20:57.746+09:00  INFO 42808 --- [book-sample] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08T15:20:57.747+09:00  INFO 42808 --- [book-sample] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 853 ms
+2025-04-08T15:20:58.060+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-04-08T15:20:58.100+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Property 'mapperLocations' was not specified.
+2025-04-08T15:20:58.181+09:00  INFO 42808 --- [book-sample] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-08T15:20:58.217+09:00  INFO 42808 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-08T15:20:58.227+09:00  INFO 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Started BookSampleApplication in 1.711 seconds (process running for 2.27)
+2025-04-08T15:21:05.664+09:00  INFO 42808 --- [book-sample] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-08T15:21:05.668+09:00  INFO 42808 --- [book-sample] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08T15:21:05.677+09:00  INFO 42808 --- [book-sample] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-08T15:21:05.769+09:00  INFO 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Starting BookSampleApplication using Java 21.0.5 with PID 42808 (C:\spring-tool-4\workspace\book-sample\bin\main started by haena in C:\spring-tool-4\workspace\book-sample)
+2025-04-08T15:21:05.769+09:00 DEBUG 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08T15:21:05.769+09:00  INFO 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-04-08T15:21:05.870+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2025-04-08T15:21:05.870+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.framework'
+2025-04-08T15:21:05.897+09:00  WARN 42808 --- [book-sample] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.framework]' package. Please check your configuration.
+2025-04-08T15:21:05.931+09:00  INFO 42808 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-08T15:21:05.932+09:00  INFO 42808 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08T15:21:05.933+09:00  INFO 42808 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08T15:21:05.951+09:00  INFO 42808 --- [book-sample] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08T15:21:05.951+09:00  INFO 42808 --- [book-sample] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
+2025-04-08T15:21:06.007+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-04-08T15:21:06.019+09:00 DEBUG 42808 --- [book-sample] [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Property 'mapperLocations' was not specified.
+2025-04-08T15:21:06.037+09:00  INFO 42808 --- [book-sample] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-08T15:21:06.047+09:00  INFO 42808 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-08T15:21:06.050+09:00  INFO 42808 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Started BookSampleApplication in 0.307 seconds (process running for 10.093)
+2025-04-08T15:21:06.054+09:00  INFO 42808 --- [book-sample] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-08T15:21:08.112+09:00  INFO 42808 --- [book-sample] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-08T15:21:08.113+09:00  INFO 42808 --- [book-sample] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08T15:21:08.120+09:00  INFO 42808 --- [book-sample] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-08T15:21:11.505+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Starting BookSampleApplication using Java 21.0.5 with PID 47200 (C:\spring-tool-4\workspace\book-sample\bin\main started by haena in C:\spring-tool-4\workspace\book-sample)
+2025-04-08T15:21:11.507+09:00 DEBUG 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08T15:21:11.507+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-04-08T15:21:11.541+09:00  INFO 47200 --- [book-sample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-08T15:21:11.542+09:00  INFO 47200 --- [book-sample] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-08T15:21:11.940+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2025-04-08T15:21:11.941+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.framework'
+2025-04-08T15:21:12.081+09:00  WARN 47200 --- [book-sample] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.framework]' package. Please check your configuration.
+2025-04-08T15:21:12.342+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-08T15:21:12.353+09:00  INFO 47200 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08T15:21:12.354+09:00  INFO 47200 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08T15:21:12.396+09:00  INFO 47200 --- [book-sample] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08T15:21:12.396+09:00  INFO 47200 --- [book-sample] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 853 ms
+2025-04-08T15:21:12.659+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-04-08T15:21:12.703+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Property 'mapperLocations' was not specified.
+2025-04-08T15:21:12.786+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-08T15:21:12.819+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-08T15:21:12.826+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Started BookSampleApplication in 1.63 seconds (process running for 2.241)
+2025-04-08T15:21:21.289+09:00  INFO 47200 --- [book-sample] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-08T15:21:21.291+09:00  INFO 47200 --- [book-sample] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08T15:21:21.303+09:00  INFO 47200 --- [book-sample] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-08T15:21:21.406+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Starting BookSampleApplication using Java 21.0.5 with PID 47200 (C:\spring-tool-4\workspace\book-sample\bin\main started by haena in C:\spring-tool-4\workspace\book-sample)
+2025-04-08T15:21:21.406+09:00 DEBUG 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08T15:21:21.407+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-04-08T15:21:21.517+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2025-04-08T15:21:21.518+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.framework'
+2025-04-08T15:21:21.545+09:00  WARN 47200 --- [book-sample] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.framework]' package. Please check your configuration.
+2025-04-08T15:21:21.579+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-08T15:21:21.580+09:00  INFO 47200 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08T15:21:21.580+09:00  INFO 47200 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08T15:21:21.597+09:00  INFO 47200 --- [book-sample] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08T15:21:21.598+09:00  INFO 47200 --- [book-sample] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2025-04-08T15:21:21.651+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-04-08T15:21:21.659+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Property 'mapperLocations' was not specified.
+2025-04-08T15:21:21.677+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-08T15:21:21.689+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-08T15:21:21.692+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Started BookSampleApplication in 0.308 seconds (process running for 11.107)
+2025-04-08T15:21:21.695+09:00  INFO 47200 --- [book-sample] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-08T15:30:48.422+09:00  INFO 47200 --- [book-sample] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-08T15:30:48.424+09:00  INFO 47200 --- [book-sample] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08T15:30:48.432+09:00  INFO 47200 --- [book-sample] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-08T15:30:48.536+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Starting BookSampleApplication using Java 21.0.5 with PID 47200 (C:\spring-tool-4\workspace\book-sample\bin\main started by haena in C:\spring-tool-4\workspace\book-sample)
+2025-04-08T15:30:48.537+09:00 DEBUG 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08T15:30:48.537+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-04-08T15:30:48.627+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2025-04-08T15:30:48.628+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.framework'
+2025-04-08T15:30:48.653+09:00  WARN 47200 --- [book-sample] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.framework]' package. Please check your configuration.
+2025-04-08T15:30:48.685+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-08T15:30:48.686+09:00  INFO 47200 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08T15:30:48.686+09:00  INFO 47200 --- [book-sample] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08T15:30:48.700+09:00  INFO 47200 --- [book-sample] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08T15:30:48.700+09:00  INFO 47200 --- [book-sample] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 162 ms
+2025-04-08T15:30:48.755+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.m.s.b.a.MybatisAutoConfiguration       : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2025-04-08T15:30:48.761+09:00 DEBUG 47200 --- [book-sample] [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Property 'mapperLocations' was not specified.
+2025-04-08T15:30:48.775+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-08T15:30:48.783+09:00  INFO 47200 --- [book-sample] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-08T15:30:48.787+09:00  INFO 47200 --- [book-sample] [restartedMain] com.framework.BookSampleApplication      : Started BookSampleApplication in 0.274 seconds (process running for 578.202)
+2025-04-08T15:30:48.788+09:00  INFO 47200 --- [book-sample] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
